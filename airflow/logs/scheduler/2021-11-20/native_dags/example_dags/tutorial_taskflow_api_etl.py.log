@@ -1,0 +1,14 @@
+[2021-11-20 21:25:31,620] {processor.py:163} INFO - Started process (PID=16931) to work on /usr/local/lib/python3.9/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-20 21:25:31,621] {processor.py:625} INFO - Processing file /usr/local/lib/python3.9/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-20 21:25:31,622] {logging_mixin.py:109} INFO - [2021-11-20 21:25:31,622] {dagbag.py:500} INFO - Filling up the DagBag from /usr/local/lib/python3.9/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-20 21:25:31,646] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /usr/local/lib/python3.9/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-20 21:25:32,728] {logging_mixin.py:109} INFO - [2021-11-20 21:25:32,728] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-20 21:25:32,771] {logging_mixin.py:109} INFO - [2021-11-20 21:25:32,771] {dag.py:2928} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-20 21:25:32,779] {processor.py:171} INFO - Processing /usr/local/lib/python3.9/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.162 seconds
+[2021-11-20 21:26:08,421] {processor.py:163} INFO - Started process (PID=16967) to work on /usr/local/lib/python3.9/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-20 21:26:08,422] {processor.py:625} INFO - Processing file /usr/local/lib/python3.9/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2021-11-20 21:26:08,423] {logging_mixin.py:109} INFO - [2021-11-20 21:26:08,423] {dagbag.py:500} INFO - Filling up the DagBag from /usr/local/lib/python3.9/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-20 21:26:08,445] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /usr/local/lib/python3.9/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-11-20 21:26:08,663] {logging_mixin.py:109} INFO - [2021-11-20 21:26:08,663] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-20 21:26:08,707] {logging_mixin.py:109} INFO - [2021-11-20 21:26:08,707] {dag.py:2928} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2021-11-20 21:26:08,721] {processor.py:171} INFO - Processing /usr/local/lib/python3.9/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.303 seconds

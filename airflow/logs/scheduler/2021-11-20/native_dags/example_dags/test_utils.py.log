@@ -1,0 +1,14 @@
+[2021-11-20 21:25:29,718] {processor.py:163} INFO - Started process (PID=16929) to work on /usr/local/lib/python3.9/dist-packages/airflow/example_dags/test_utils.py
+[2021-11-20 21:25:29,719] {processor.py:625} INFO - Processing file /usr/local/lib/python3.9/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-20 21:25:29,720] {logging_mixin.py:109} INFO - [2021-11-20 21:25:29,720] {dagbag.py:500} INFO - Filling up the DagBag from /usr/local/lib/python3.9/dist-packages/airflow/example_dags/test_utils.py
+[2021-11-20 21:25:29,770] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.9/dist-packages/airflow/example_dags/test_utils.py
+[2021-11-20 21:25:29,777] {logging_mixin.py:109} INFO - [2021-11-20 21:25:29,777] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-20 21:25:29,789] {logging_mixin.py:109} INFO - [2021-11-20 21:25:29,789] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-20 21:25:29,797] {processor.py:171} INFO - Processing /usr/local/lib/python3.9/dist-packages/airflow/example_dags/test_utils.py took 0.092 seconds
+[2021-11-20 21:26:06,151] {processor.py:163} INFO - Started process (PID=16965) to work on /usr/local/lib/python3.9/dist-packages/airflow/example_dags/test_utils.py
+[2021-11-20 21:26:06,152] {processor.py:625} INFO - Processing file /usr/local/lib/python3.9/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-20 21:26:06,153] {logging_mixin.py:109} INFO - [2021-11-20 21:26:06,153] {dagbag.py:500} INFO - Filling up the DagBag from /usr/local/lib/python3.9/dist-packages/airflow/example_dags/test_utils.py
+[2021-11-20 21:26:06,175] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.9/dist-packages/airflow/example_dags/test_utils.py
+[2021-11-20 21:26:06,186] {logging_mixin.py:109} INFO - [2021-11-20 21:26:06,186] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-20 21:26:06,198] {logging_mixin.py:109} INFO - [2021-11-20 21:26:06,198] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-20 21:26:06,206] {processor.py:171} INFO - Processing /usr/local/lib/python3.9/dist-packages/airflow/example_dags/test_utils.py took 0.059 seconds
