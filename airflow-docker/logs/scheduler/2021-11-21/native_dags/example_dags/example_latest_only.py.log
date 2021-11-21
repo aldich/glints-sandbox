@@ -1,0 +1,28 @@
+[2021-11-21 05:34:22,553] {processor.py:163} INFO - Started process (PID=203) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-21 05:34:22,555] {processor.py:625} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-21 05:34:22,556] {logging_mixin.py:109} INFO - [2021-11-21 05:34:22,555] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-21 05:34:22,906] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-21 05:34:36,999] {logging_mixin.py:109} INFO - [2021-11-21 05:34:36,999] {process_utils.py:212} INFO - Waiting up to 5 seconds for processes to exit...
+[2021-11-21 05:34:36,999] {logging_mixin.py:109} WARNING - Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x7f09a40d34d0>
+[2021-11-21 05:34:37,000] {logging_mixin.py:109} WARNING - Traceback (most recent call last):
+[2021-11-21 05:34:37,000] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/weakref.py", line 358, in remove
+[2021-11-21 05:34:37,000] {logging_mixin.py:109} WARNING -     def remove(k, selfref=ref(self)):
+[2021-11-21 05:34:37,000] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 486, in _exit_gracefully
+[2021-11-21 05:34:37,000] {logging_mixin.py:109} WARNING -     self.log.debug("Current Stacktrace is: %s", '\n'.join(map(str, inspect.stack())))
+[2021-11-21 05:34:37,000] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1513, in stack
+[2021-11-21 05:34:37,001] {logging_mixin.py:109} WARNING -     return getouterframes(sys._getframe(1), context)
+[2021-11-21 05:34:37,001] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1490, in getouterframes
+[2021-11-21 05:34:37,001] {logging_mixin.py:109} WARNING -     frameinfo = (frame,) + getframeinfo(frame, context)
+[2021-11-21 05:34:37,001] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1460, in getframeinfo
+[2021-11-21 05:34:37,002] {logging_mixin.py:109} WARNING -     filename = getsourcefile(frame) or getfile(frame)
+[2021-11-21 05:34:37,002] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 693, in getsourcefile
+[2021-11-21 05:34:37,002] {logging_mixin.py:109} WARNING -     if os.path.exists(filename):
+[2021-11-21 05:34:37,002] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/genericpath.py", line 19, in exists
+[2021-11-21 05:34:37,002] {logging_mixin.py:109} WARNING -     os.stat(path)
+[2021-11-21 05:34:37,002] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 486, in _exit_gracefully
+[2021-11-21 05:34:37,002] {logging_mixin.py:109} WARNING -     self.log.debug("Current Stacktrace is: %s", '\n'.join(map(str, inspect.stack())))
+[2021-11-21 05:34:37,002] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/collections/__init__.py", line 424, in __repr__
+[2021-11-21 05:34:37,003] {logging_mixin.py:109} WARNING -     return self.__class__.__name__ + repr_fmt % self
+[2021-11-21 05:34:37,003] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 490, in _exit_gracefully
+[2021-11-21 05:34:37,003] {logging_mixin.py:109} WARNING -     sys.exit(os.EX_OK)
+[2021-11-21 05:34:37,003] {logging_mixin.py:109} WARNING - SystemExit: 0
