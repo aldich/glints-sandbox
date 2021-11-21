@@ -19,6 +19,9 @@ pass: tangSel
 For the docker-compose.yaml file that I setup was available on:
 airflow-docker/docker-compose.yaml
 
+Also for the image of the Docker that I've setup was uploaded on:
+docker pull yonatanaldi/sandbox
+
 For the ETL (Extract, Transform, and Load) process on the Airflow, I've setup the code to move a data from one table to another due the limitation on the DB setup. 
 The file was available on:
 airflow/dags/etl_job.py
